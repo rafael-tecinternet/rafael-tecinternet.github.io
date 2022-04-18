@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@500&family=Merriweather:ital,wght@1,900&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #53a4da;
+    background-image: url(imaagem-fundo-min.jpg);
+}
+img {
+    max-width: 100%;
+    border-radius: 40px;
+}
+header {
+    position: sticky;
+    top: 0;
+}
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    margin: 0;
+}
+nav {
+    line-height: 40px;
+    background-color: #333;
+}
+nav a {
+    text-decoration: none;
+    color: #fff;
+    padding: 10px;
+    font-family: 'Fredoka';
+    transition: all 1s;
+}
+nav a:hover {
+    color: #05b9f0;
+    text-shadow: #fff 1px 1px 1px;
+}
+section, .destaque {    
+    text-align: center;
+}
+h1 {
+    color: #fff;
+    text-align: center;
+    font-family: 'Merriweather';
+    text-transform: uppercase;
+    font-size: 2rem;    
+}
+video{
+    margin: 0 auto;
+    display: block;
+}
+.texto {
+    color: #fff;
+    font-family: 'Fredoka';
+    font-size: 1.2rem;
+    width: 90%;
+    text-align: center;
+    margin: auto;
+    background-color: rgba(51, 51, 51, 0.137);    
+}
+.foto {
+    text-align: center;
+} 
+
+@media screen and (min-width: 900px) {
+    .colunas {
+        display: flex;
+    }
+    .texto {
+        width: 50%;
+        font-size: 1.35rem; 
+    }
+    .foto {
+        width: 48%;
+    }
+    .index{
+        display: flex;  
+    }
+}
+@media screen and (min-width: 1050px){
+    .texto {
+        font-size: 1.5rem;
+    }
+}
+@media screen and (min-width: 1210px) {
+
+    .colunas {
+        display: block; 
+    }
+    .texto {
+        font-size: 1.7rem;
+    } 
+}
