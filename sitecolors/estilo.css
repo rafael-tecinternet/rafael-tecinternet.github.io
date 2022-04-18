@@ -26,7 +26,6 @@ h1 {
     /* Variáveis no CSS */
     /* --fonte-base: 18px; Declaração de variável 
     font-size: var(--fonte-base);/* Recuperação de variável */
-
     
 }
 
@@ -44,7 +43,6 @@ nav ul {
     list-style: none;
     margin: 0;
     padding-bottom: 0;
-    padding-left: 0;
 }
 
 nav a {
@@ -127,6 +125,7 @@ main, section {
 }
 
 #brand {
+
     background-image: url(imagens/h13-background-img-4-min.jpg);
     color: #fff;
 }
@@ -137,38 +136,15 @@ main, section {
     background-size: cover;
     background-position-x: center;
 }
-#produto, #motion, #print {
-    background-attachment: fixed;    
-}
-.conteudo {
-    width: 50%;
-    max-width: 800px;
-    margin: 0;
-    margin-left: 4rem;
-}
-.conteudo h1 {
-    font-size: 5rem;
-    margin-bottom: -0.6rem;
-}
-nav a {
-    font-size: 1.1rem;
-    padding: 0.7rem 1.0rem;
+
+.texto {
+    color: #999;
 }
 
-@media screen and (min-width: 700px) {
+@media screen and (min-width: 600px) {
     header {
         display: flex;
         align-items: center;
         justify-content: space-around;
-        height: 7vh;
     }
-    .logo {
-        width: 25%;
-
-    }
-    header nav {
-        width: 70%;
-        max-width: 800px;
-    }
-    
 }
